@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey-form.css">
+</head>
+<body>
+    <h1 id="title">Sos fan de los videojuegos?</h1>
+    <p id="description">Gracias por tomarte un tiempito para completar este breve cuestionario.</p>
+    <form action="#" id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">
+                Ingresá tu nombre:
+                <input type="text" name="name" id="name" required placeholder="Nombre"/>
+            </label>
+            <label for="email" id="email-label">
+                Ingresá tu email:
+                <input type="email" name="email" id="email" required placeholder="Email"/>
+            </label>
+            <label for="number" id="number-label">
+                Cuántos años tenés?
+                <input id="number" type="number" name="age" min="13" max="120" placeholder="Tu edad">
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="">Cuál es tu relación con los videojuegos?
+                <select name="" id="dropdown">
+                    <option value="">(elegí una opción)</option>
+                    <option value="1">Juego por hobbie, de vez en cuando.</option>
+                    <option value="2">Me considero gamer.</option>
+                    <option value="3">Soy jugador profesional.</option>
+                    <option value="4">Otra</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <p></p>
+            <label for="personal-account"
+              ><input
+                id="personal-account"
+                type="radio"
+                name="account-type"
+                class="inline"
+              />
+              Personal Account</label
+            >
+            <label for="business-account"
+              ><input
+                id="business-account"
+                type="radio"
+                name="account-type"
+                class="inline"
+              />
+              Business Account</label
+            >
+        </fieldset>
+        <fieldset>
+            <p>Cuáles de estos juegos has jugado?</p>
+            <label for="terms-and-conditions" name="terms-and-conditions">
+              <input
+                id="terms-and-conditions"
+                type="checkbox"
+                required
+                name="terms-and-conditions"
+              />
+            </label>
+            <label for="terms-and-conditions" name="terms-and-conditions">
+                <input
+                  id="terms-and-conditions"
+                  type="checkbox"
+                  required
+                  name="terms-and-conditions"
+                />
+            </label>
+            <label for="terms-and-conditions" name="terms-and-conditions">
+                <input
+                  id="terms-and-conditions"
+                  type="checkbox"
+                  required
+                  name="terms-and-conditions"
+                />
+            </label>
+            <label for="terms-and-conditions" name="terms-and-conditions">
+                <input
+                  id="terms-and-conditions"
+                  type="checkbox"
+                  required
+                  name="terms-and-conditions"
+                />
+            </label>
+            <label for="terms-and-conditions" name="terms-and-conditions">
+                <input
+                  id="terms-and-conditions"
+                  type="checkbox"
+                  required
+                  name="terms-and-conditions"
+                />
+            </label>
+            <label for="terms-and-conditions" name="terms-and-conditions">
+                <input
+                  id="terms-and-conditions"
+                  type="checkbox"
+                  required
+                  name="terms-and-conditions"
+                />
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </label>
+        </fieldset>
+        <input type="submit"/>
+    </form>
+</body>
+</html>
